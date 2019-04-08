@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Blog Add </title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/bootstrap/css/fontawesome-all.css" />
-  </head>
-  <body>
-    <div class="container">
-       <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+<head>
+  <title>Add Blog </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container">
+   <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
     <a class="navbar-brand" href="/">My Blog</a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+      <div class="navbar-nav">
         <a class="nav-item nav-link active" href="/blogList">List Blogs</a>
         <a class="nav-item nav-link active" href="/blogAdd">Add Blog</a>
-        </div>
+      </div>
     </div>
-</nav>
-       <p></p>
-       <h1>Blog Add</h1>
-       <p>Under Construction.</p>
-    </div> <!-- container -->
-  </body>
-  <script src="/bootstrap/js/jquery.min.js"></script>
-  <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </nav>
+  <br>
+  <div class = "card" style = "width: 50%">
+    <form method = "post" action = "/blogAdd" style = "padding: 20px">
+      <div class="form-group">
+        <label for="blogTitle">Blog Title</label>
+        <input type="text" class="form-control" name="blogTitle" id="blogTitle" required>
+      </div>
+      <div class="form-group">
+        <label for="blogText">Bolg Text</label>
+        <textarea type="text" class="form-control" name="blogText" id="blogText" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Blog</button>
+    </form>
+  </div>
+</div> <!-- container -->
+</body>
+<script src="/bootstrap/js/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
 </html>

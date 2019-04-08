@@ -15,6 +15,7 @@
     "jquery": "^3.3.1",
     "mongoose": "^5.4.15",
     "morgan": "~1.9.0",
+    "request": "^2.88.0",
     "serve-favicon": "~2.4.5"
   }
 }
