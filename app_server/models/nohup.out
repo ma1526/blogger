@@ -1,0 +1,67 @@
+
+> blogger@0.0.0 start /home/bitnami/lab3/blogger
+> PORT=80 node ./bin/www
+
+(node:18642) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger
+[0mGET /blogList [36m304 [0m10.739 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.616 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.349 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m2.019 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.761 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.285 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.771 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.536 ms - 1539[0m
+[0mGET / [32m200 [0m1.695 ms - 967[0m
+[0mGET / [32m200 [0m1.623 ms - 967[0m
+[0mGET /blogList [36m304 [0m0.908 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.413 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.223 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.938 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.588 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.242 ms - -[0m
+[0mGET /blogList [36m304 [0m0.635 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.319 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.559 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.302 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.468 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.439 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/lab3/blogger
+> PORT=80 node ./bin/www
+
+(node:18912) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger
+[0mGET /blogList [36m304 [0m10.182 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.566 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.868 ms - 1539[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.375 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.927 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.255 ms - -[0m
+[0mGET /blogList [36m304 [0m0.928 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.313 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.751 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.716 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.699 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.100 ms - 1539[0m
+[0mGET / [36m304 [0m1.715 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m2.486 ms - 1539[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m2.950 ms - 1539[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m2.972 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.959 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.254 ms - -[0m
+[0mGET /blogList [36m304 [0m0.867 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.819 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.273 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.174 ms - 1539[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m1.209 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m1.209 ms - -[0m
+[0mGET / [32m200 [0m1.328 ms - 967[0m
+[0mGET /blogList [36m304 [0m0.667 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.309 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.259 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.241 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.756 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.289 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.759 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.547 ms - 1539[0m

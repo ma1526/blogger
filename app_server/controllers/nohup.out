@@ -1,0 +1,53 @@
+
+> blogger@0.0.0 start /home/bitnami/lab3/blogger
+> PORT=80 node ./bin/www
+
+(node:19215) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger
+[0mGET /blogList [31m500 [0m10.856 ms - 1655[0m
+[0mGET /blogList [31m500 [0m1.441 ms - 1655[0m
+[0mGET /blogList [31m500 [0m1.533 ms - 1655[0m
+
+> blogger@0.0.0 start /home/bitnami/lab3/blogger
+> PORT=80 node ./bin/www
+
+(node:19249) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger
+[0mGET /blogList [32m200 [0m10.063 ms - 953[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.656 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.482 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.825 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.904 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.227 ms - -[0m
+[0mGET /blogList [36m304 [0m0.945 ms - -[0m
+[0mGET /blogList [32m200 [0m0.621 ms - 953[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.757 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.752 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.786 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.421 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.253 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/lab3/blogger
+> PORT=80 node ./bin/www
+
+(node:19476) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger
+[0mGET / [36m304 [0m10.232 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.705 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.344 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.791 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.183 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m1.146 ms - -[0m
+[0mGET /blogList [36m304 [0m1.553 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.141 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.351 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.306 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.526 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.063 ms - 1539[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m0.782 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.461 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.487 ms - -[0m
+[0mGET /bootstrap/js/bootstrap.min.js.map [32m200 [0m5.567 ms - 190253[0m
+[0mGET /bootstrap/css/bootstrap.min.css.map [32m200 [0m1.751 ms - 625953[0m
+[0mGET /blogList [31m500 [0m1.809 ms - 2380[0m
+[0mGET /blogList [31m500 [0m1.252 ms - 2380[0m
