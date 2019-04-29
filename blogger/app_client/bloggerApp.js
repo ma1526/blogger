@@ -82,15 +82,26 @@ app.controller('ListController', ['$http','authentication',function ListControll
   vm.pageHeader = {
     title: "Blogs List"
   };
+  if(authentication.isLoggedIn()){
+    vm.userEmail =   authentication.currentUser().email;
+  }
   vm.isLoggedIn = function(){
     return authentication.isLoggedIn();
+    //should retun true if authentication.currentUser.email 
   }
   getAllBlogs($http)
     .success(function (data) {
       vm.blogs = data;
+      vm.blogs[0].dateOfCreationFormated = "test test";
       vm.message = "Blogs data found!";
+      vm.blogs.forEach(function(blog){
+        var dateObj = new Date(blog.dateOfCreation);
+        blog.dateOfCreationFormated = dateObj.toLocaleDateString() + " " + dateObj.toLocaleTimeString();
+        console.log( blog.dateOfCreationFormated );
+      });
+      
     })
-    .error(function (e) {
+    .error(function (e) {ß
       vm.message = "Could not get list of blogs.";
     });
 }]);
@@ -109,6 +120,8 @@ app.controller('AddController', ['$http', '$location','authentication', function
     var data = vm.blog;
     data.blogTitle = addForm.blogTitle.value; //from form to vm
     data.blogText = addForm.blogText.value;
+    data.blogAuthor = authentication.currentUser().name;
+    data.blogEmail = authentication.currentUser().email;
     //forgot to pass in authentication
     console.log({ headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
     addBlog($http, data, authentication)

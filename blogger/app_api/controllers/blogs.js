@@ -26,13 +26,15 @@ module.exports.blogsList = function(req, res) {
         sendJSONresponse(res, 200, buildLocationList(req, res, results));
       }); 
 };
-
+//need to update lab7
 var buildLocationList = function(req, res, results) {
   var blogs = [];
   results.forEach(function(obj) {
     blogs.push({
       blogTitle: obj.blogTitle,
       blogText: obj.blogText,
+      blogEmail: obj.blogEmail,
+      blogAuthor: obj.blogAuthor,
       dateOfCreation: obj.dateOfCreation,
       _id: obj._id
     });
@@ -48,6 +50,8 @@ module.exports.blogsCreate = function(req, res) {
    .create({
       blogTitle: req.body.blogTitle,
       blogText: req.body.blogText,
+      blogAuthor: req.body.blogAuthor,
+      blogEmail: req.body.blogEmail,
       dateOfCreation: req.body.dateOfCreation
      }, function(err, blog) {
        if (err) {

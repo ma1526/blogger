@@ -8,18 +8,6 @@ var auth = jwt({   // Lab 6
 var ctrlBlogs = require('../controllers/blogs');
 var ctrlAuth = require('../controllers/authentication');  // Lab 6
 
-/*
-if( express  === require('express') )
-{
- console.log("true");
-}
-
-if( express != require('express')  ){
- console.log("flase");
-}
-*/
-
-
 /* Setup routes to API URLs */
 router.get('/blogs', ctrlBlogs.blogsList);
 router.post('/blogs', auth, ctrlBlogs.blogsCreate);   // Lab 6 - added auth param
