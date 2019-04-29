@@ -2357,4 +2357,3 @@ Getting blogs list
     dateOfCreation: 2019-04-29T17:05:43.103Z,
     __v: 0 } ]
 [0mGET /api/blogs [36m304 [0m5.673 ms - -[0m
-[0mGET / [32m200 [0m3.406 ms - 7454[0m
