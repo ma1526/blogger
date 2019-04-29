@@ -1,0 +1,251 @@
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+Mongoose connected to mongodb://localhost/blogger
+[0mGET / [36m304 [0m12.033 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.875 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.790 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m2.420 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.717 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.278 ms - -[0m
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-03-16T15_24_05_635Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+
+/home/bitnami/lab4/blogger/node_modules/mongoose/lib/index.js:434
+      throw new mongoose.Error.MissingSchemaError(name);
+      ^
+MissingSchemaError: Schema hasn't been registered for model "Blog".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/home/bitnami/lab4/blogger/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at Mongoose.model (/home/bitnami/lab4/blogger/node_modules/mongoose/lib/index.js:434:13)
+    at Object.<anonymous> (/home/bitnami/lab4/blogger/app_api/controllers/blog.js:2:26)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/lab4/blogger/app_api/routes/index.js:3:17)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-03-25T22_06_47_566Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+
+/home/bitnami/lab4/blogger/node_modules/mongoose/lib/index.js:434
+      throw new mongoose.Error.MissingSchemaError(name);
+      ^
+MissingSchemaError: Schema hasn't been registered for model "Blog".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/home/bitnami/lab4/blogger/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at Mongoose.model (/home/bitnami/lab4/blogger/node_modules/mongoose/lib/index.js:434:13)
+    at Object.<anonymous> (/home/bitnami/lab4/blogger/app_api/controllers/blog.js:2:26)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/lab4/blogger/app_api/routes/index.js:3:17)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-03-25T22_07_11_981Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+/home/bitnami/lab4/blogger/app_server/controllers/blog.js:118
+      console.log("body = " + body ):
+                                    ^
+
+SyntaxError: Unexpected token :
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/lab4/blogger/app_server/routes/index.js:6:15)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-01T21_20_57_202Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+true
+Mongoose connected to mongodb://blogUser:12345678@localhost/Blogger
+Finding blog details { blogid: 'undefined' }
+[0mGET /api/blogs/undefined [33m404 [0m17.892 ms - 30[0m
+responseBody = [object Object]
+body = [object Object]
+[0mGET /blogEdit/5c731c1b872de1ce8a0b7784 [36m304 [0m42.618 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.791 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m1.730 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.257 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.776 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.266 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.375 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.282 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m2.129 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js.map [36m304 [0m0.290 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css.map [36m304 [0m0.276 ms - -[0m
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-01T21_25_14_239Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+true
+Mongoose connected to mongodb://blogUser:12345678@localhost/Blogger
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-01T21_25_31_271Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+true
+Mongoose connected to mongodb://blogUser:12345678@localhost/Blogger
+Finding blog details { blogid: 'undefined' }
+[0mGET /api/blogs/undefined [33m404 [0m18.352 ms - 30[0m
+responseBody = [object Object]
+body = {"message":"blogid not found"}
+[0mGET /blogEdit/5c731c1b872de1ce8a0b7784 [36m304 [0m43.207 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.659 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m1.757 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.275 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.079 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m1.198 ms - -[0m
+Finding blog details { blogid: '5c731c1b872de1ce8a0b7784' }
+{ _id: 5c731c1b872de1ce8a0b7784,
+  blogTitle: 'putTestTitlte',
+  blogText: 'putTestBlogText',
+  dateOfCreation: 0000-02-24T03:24:00.000Z }
+[0mGET /api/blogs/5c731c1b872de1ce8a0b7784 [36m304 [0m17.101 ms - -[0m
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-01T21_32_28_744Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/lab4/blogger
+> PORT=80 node ./bin/www
+
+true
+Mongoose connected to mongodb://blogUser:12345678@localhost/Blogger
+path = /api/blogs/undefined
+[0mPOST /blogAdd [31m500 [0m18.683 ms - 1654[0m
+[0mGET / [36m304 [0m3.409 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m2.065 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.976 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.159 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m0.537 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m0.932 ms - 1539[0m
+[0mGET /blogAdd [32m200 [0m1.290 ms - 1384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.268 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m1.190 ms - -[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.646 ms - 1539[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m2.042 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m2.078 ms - -[0m
+path = /api/blogs/undefined
+[0mPOST /blogAdd [31m500 [0m1.448 ms - 1654[0m
+[0mGET / [36m304 [0m1.034 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.276 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.min.css [36m304 [0m0.248 ms - -[0m
+[0mGET /bootstrap/css/fontawesome-all.css [33m404 [0m1.186 ms - 1539[0m
+[0mGET /bootstrap/js/jquery.min.js [33m404 [0m1.582 ms - 1539[0m
+[0mGET /bootstrap/js/bootstrap.min.js [36m304 [0m1.651 ms - -[0m
+[0mGET /blogList [31m500 [0m1.175 ms - 1656[0m
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! blogger@0.0.0 start: `PORT=80 node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-07T16_59_50_197Z-debug.log
