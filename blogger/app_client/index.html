@@ -32,7 +32,7 @@
     <div ng-repeat = "blog in vm.blogs">
         <div class = "card border-primary" style = "width: 75%">
           <div class = "card-header" >
-            </div>    
+          </div>    
           <div class = "card-body">
             <h5 class = "card-title">{{blog.blogTitle}}</h5>
             <p class = "card-text">
@@ -43,9 +43,9 @@
           </div>
           <div  class="card-footer" class="col-sm" >
               <div>
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:{{blog.likesRatio}}%; background: #7cb0ff" aria-valuenow="{{blog.likesRatio}}" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:{{blog.likesRatio}}%; background: #7cb0ff" aria-valuenow="{{blog.likesRatio}}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
                 <ul class="nav justify-content-end nav-pills card-header-pills">
                   <div class="nav justify-content-end nav-pills card-header-pills">
                     <li class="nav-item"  ng-show="vm.isLoggedIn() && blog.blogEmail == vm.userEmail" >
@@ -54,12 +54,12 @@
                     <li class="nav-item"  ng-show="vm.isLoggedIn() && blog.blogEmail == vm.userEmail" >
                       <a class="nav-link" href = "#/blogDelete/{{blog._id}}"> <i class="fas fa-trash-alt"></i></a>
                     </li>
-                    <div class="btn-group btn-group-toggle" ng-show="vm.isLoggedIn() && blog.blogEmail != vm.userEmail" data-toggle="buttons" style="margin-left: 20px; margin-right:18px;margin-top:12px">
+                    <div class="btn-group btn-group-toggle" ng-show="blog.blogEmail != vm.userEmail" data-toggle="buttons" style="margin-left: 20px; margin-right:18px;margin-top:12px">
                         <label class="btn btn-primary" >
-                          <input type="radio" name="options" id="option1" autocomplete="off" ng-click="vm.incrementBlogLikeDislike(blog._id, 'like')"> Like
+                          <input type="radio" name="options" id="option1" autocomplete="off" ng-click="vm.incrementBlogLikeDislike(blog._id, 'like')"> Like {{blog.blogLike}}
                         </label>
                         <label class="btn btn-secondary">
-                          <input type="radio" name="options" id="option2" autocomplete="off" ng-click="vm.incrementBlogLikeDislike(blog._id, 'dislike')"> Dislike
+                          <input type="radio" name="options" id="option2" autocomplete="off" ng-click="vm.incrementBlogLikeDislike(blog._id, 'dislike')"> Dislike {{ blog.blogDislike}}
                         </label>
                     </div>
                   </div>

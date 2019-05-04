@@ -107,9 +107,9 @@ app.controller('ListController', ['$http','authentication','$interval',function 
     getBlogById($http, blogId)
     .success(function (data) {
 
-      if (likeDislike == "like"){
+      if (likeDislike == "like" && authentication.isLoggedIn()){
         data.blogLike++;
-      }else if( likeDislike == "dislike"){
+      }else if( likeDislike == "dislike" && authentication.isLoggedIn()){
         data.blogDislike++;
       }
       vm.message = "Blog data found!";
